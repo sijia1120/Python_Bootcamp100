@@ -33,15 +33,6 @@ def generator():
     entry_pw.insert(0,password)
     pyperclip.copy(password)
 
-
-
-
-
-
-
-
-
-
 #### SAVE PASSWORD
 def add():
     global save_dict
@@ -61,11 +52,6 @@ def add():
                 entry_wb.delete(0, END)
                 entry_pw.delete(0, END)
                 print(save_dict)
-
-
-
-
-
 
 
 #### UI SETPUP
